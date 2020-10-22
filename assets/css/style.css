@@ -1,0 +1,67 @@
+/*
+    Estilo da página index.html
+*/
+
+            #p1
+            {
+               color: darkorange;
+               font-size: 35px;
+            }
+
+            #p2
+            {
+               font-size: 20px;
+            }
+
+            #h1
+            {
+                color: firebrick;
+            }
+
+            #menu li
+            {
+                display: inline;
+                padding: 20px;
+            }
+
+            #menu li a
+            {
+                text-decoration: none;
+                color: black;
+            }
+
+            #menu li a:hover
+            {
+                color: aquamarine;
+            }
+
+            .p-30
+            {
+                padding: 30px;
+            }
+
+            .center
+            {
+                text-align: center;
+            }
+
+            .container
+            {
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: center;
+                align-items: center;
+               
+            }
+
+            .tamanho-social
+            {
+                width: 30px;
+                height: 30px;
+            }
+
+            .mb-50
+            {
+                margin-bottom: 50px;
+            }
+           

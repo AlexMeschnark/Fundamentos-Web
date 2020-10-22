@@ -4,54 +4,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página2</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
+
 <body>
    
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="contato.html">Contato</a></li>
-        <li><a href="https://github.com/AlexMeschnark" target="_blank">Github</a></li>
+    <ul id="menu">
+       
+        <li>
+            <a href="index.html">Home</a>
+        </li>
+
+        <li>
+            <a href="contato.html">Contato</a>
+        </li>
+
+        <li>
+            <a href="https://github.com/AlexMeschnark" target="_blank">Github</a>
+        </li>
 
     </ul>
    
-    <h1>
+    <h1 class="center">
         Entre em contato comigo
     </h1>
 
-    <form >
+    <div class="container mb-50 ">
+
+        <div>
+            <form>
        
-        <label for="nome">Nome: </label> <br>
-        <input type="text" id = 'nome'>
+                <label for="nome">Nome: </label> <br>
+                <input type="text" id = 'nome'>
+        
+                <br><br>
+        
+                <label for="email">Email: </label> <br>
+                <input type="text" id = 'email'>
+        
+                <br><br>
+        
+                <label for="assunto">Assunto: </label> <br>
+                <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+        
+                <br><br>
+        
+                <button>Enviar</button>
+            </form>
 
-        <br><br>
+            <div>
+                <h2>Endereço:</h2>
+                <p>Rua Verbo Divino, 994</p>
+                <p>São Paulo, SP</p>
+        
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14620.71447967285!2d-46.7047643!3d-23.6337734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce50e14ef357cf%3A0xa4276ebff7fdb510!2sSampa%20Burger%20-%20Verbo%20Divino!5e0!3m2!1spt-BR!2sbr!4v1603304351001!5m2!1spt-BR!2sbr" 
+                width="600" 
+                height="450" 
+                frameborder="0"
+                 style="border:0;" 
+                 allowfullscreen="" 
+                 aria-hidden="false" 
+                 tabindex="0">
+                </iframe>
+            </div>
 
-        <label for="email">Email: </label> <br>
-        <input type="text" id = 'email'>
+        </div>
 
-        <br><br>
+    </div>
 
-        <label for="assunto">Assunto: </label> <br>
-        <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+    <hr>
 
-        <br><br>
+    <footer class="center">
+        
+        <div class="container mb-50">
 
-        <button>Enviar</button>
+                <a href="https://github.com/AlexMeschnark" target="_blank">
 
-        <h2>Endereço:</h2>
-        <p>Rua Verbo Divino, 994</p>
-        <p>São Paulo, SP</p>
+                    <img class="tamanho-social" src="assets/img/github.png" alt="Logo do Github">
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14620.71447967285!2d-46.7047643!3d-23.6337734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce50e14ef357cf%3A0xa4276ebff7fdb510!2sSampa%20Burger%20-%20Verbo%20Divino!5e0!3m2!1spt-BR!2sbr!4v1603304351001!5m2!1spt-BR!2sbr" 
-        width="600" 
-        height="450" 
-        frameborder="0"
-         style="border:0;" 
-         allowfullscreen="" 
-         aria-hidden="false" 
-         tabindex="0">
-        </iframe>
+                </a>
 
-    </form>
+                <a href="https://www.instagram.com/" target="_blank">
+
+                    <img class="tamanho-social p-30" src="assets/img/instagram.png" alt="Logo do Instagram">
+
+                </a>
+
+        </div>
+
+        <p>
+            Direitos autoriais: Alex Frederico Meschnark. &copy;
+        </p>
+        
+    </footer>
+    
     
 </body>
 </html>
